@@ -1,0 +1,23 @@
+{
+  "name": "general_structure",
+  "version": "1.0.0",
+  "description": "A quick and basic setup for mandrill testing",
+  "main": "js/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./js/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk4111/general_structure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mk4111/general_structure/issues"
+  },
+  "homepage": "https://github.com/mk4111/general_structure#readme",
+  "dependencies": {
+    "mandrill-api": "^1.0.45"
+  }
+}
